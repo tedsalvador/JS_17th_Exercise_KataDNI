@@ -1,0 +1,24 @@
+{
+  "name": "js_17th_exercise_kata_dni",
+  "version": "1.0.0",
+  "description": "Calculadora de Letra de DNI",
+  "main": "app.js",
+  "type": "module",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test-w": "vitest",
+    "test:unit": "vitest --environment jsdom",
+    "test-cover": "vitest run --coverage",
+    "start": "node app.js"
+  },
+  "author": "Ted Salvador",
+  "license": "ISC",
+  "dependencies": {
+    "happy-dom": "^9.19.2",
+    "prompt-sync": "^4.2.0",
+    "vitest": "^1.6.0"
+  }
+}
